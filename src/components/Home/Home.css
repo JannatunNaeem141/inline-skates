@@ -1,0 +1,19 @@
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.banner-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.banner-text {
+    display: grid;
+    align-content: center;
+    justify-items: start;
+}
+
+.banner-text h1 {
+    margin: 0;
+}
