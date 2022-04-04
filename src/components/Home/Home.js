@@ -8,7 +8,7 @@ const Home = () => {
             <div className='banner-section'>
                 <div className='banner-text'>
                     <h1 className='first-text'>Inline Skates</h1>
-                    <h1 className='second-text'>Get out and move</h1>
+                    <h1 className='second-text'>Get Out and Move</h1>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia impedit at amet velit ex sunt sit consequatur, natus doloribus. Reiciendis voluptate hic cupiditate error omnis, laboriosam deleniti facere quisquam sed voluptatum esse necessitatibus perspiciatis dolores debitis laborum commodi alias. Ea totam facilis dicta necessitatibus nihil cupiditate, perspiciatis possimus officia iste?</p>
                     <button className='banner-btn'>Live demo</button>
                 </div>

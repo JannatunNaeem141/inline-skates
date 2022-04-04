@@ -6,11 +6,11 @@
 .all-review-btn {
     padding: 10px 80px;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: bold !important;
     cursor: pointer;
     border-radius: 8px;
     background-color: rgb(164, 164, 252);
-    color: rgb(35, 0, 161);
+    color: rgb(35, 0, 161) !important;
     border: 2px solid rgb(164, 164, 252);
     transition: 0.2s;
 }
@@ -22,4 +22,8 @@
 
 .customer-review {
     text-align: center;
+}
+
+a {
+    /* font-weight: bold; */
 }

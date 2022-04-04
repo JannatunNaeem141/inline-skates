@@ -1,18 +1,20 @@
 import useReviews from '../../hooks/useReviews';
+import CustomLink from '../CustomLink/CustomLink';
 import Review from '../Review/Review';
 import Reviews from '../Reviews/Reviews';
 import './HomeReviews.css'
 
 const HomeReviews = (props) => {
     const [reviews, setReviews] = useReviews();
-
+    const threeReview = reviews.slice(0, 3);
+    console.log(threeReview);
     return (
         <div>
-            <h1 className='customer-review'>Customer Reviews({reviews.length})</h1>
+            <h1 className='customer-review'>Customer Reviews({threeReview.length})</h1>
             <div className='reviews-section'>
                 <div className='reviews-container'>
                     {
-                        reviews.map(review => <Review
+                        threeReview.map(review => <Review
                             key={review.id}
                             review={review}
                         ></Review>)
@@ -20,7 +22,7 @@ const HomeReviews = (props) => {
                 </div>
             </div>
             <div className='all-review'>
-                <button onClick={() => props.pathToAllReview(props.Review)} className='all-review-btn'>See All Reviews</button>
+                <CustomLink to="/reviews" className='all-review-btn'>All Reviews</CustomLink>
             </div>
         </div>
     );
