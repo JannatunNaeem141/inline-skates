@@ -1,0 +1,24 @@
+.review {
+    width: 300px;
+    height: 310px;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.review img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 7px;
+    text-align: center;
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;
+}
+
+.review h4 {
+    margin: 0;
+}
