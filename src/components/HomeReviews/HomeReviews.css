@@ -1,0 +1,25 @@
+.all-review {
+    display: flex;
+    justify-content: center;
+}
+
+.all-review-btn {
+    padding: 10px 80px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: rgb(164, 164, 252);
+    color: rgb(35, 0, 161);
+    border: 2px solid rgb(164, 164, 252);
+    transition: 0.2s;
+}
+
+.all-review-btn:hover {
+    background-color: transparent;
+    border: 2px solid rgb(35, 0, 161);
+}
+
+.customer-review {
+    text-align: center;
+}

@@ -1,0 +1,20 @@
+.about-head {
+    text-align: center;
+}
+
+.about-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.about-inner {
+    width: 50%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 667px) {
+    .about-inner {
+        width: 90%;
+    }
+}
