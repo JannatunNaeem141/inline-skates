@@ -1,5 +1,6 @@
 import React from 'react';
 import { Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
+import './MyLineChart.css'
 
 const MyLineChart = () => {
     const data = [

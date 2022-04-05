@@ -36,6 +36,7 @@ body {
     cursor: pointer;
     border-radius: 8px;
     transition: 0.2s;
+    margin-top: 20px;
 }
 
 .banner-btn:hover {

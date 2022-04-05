@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+# Inline Skates
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live link: [Create React App](https://github.com/facebook/create-react-app).
+
+### Short description of the project:
+- This is a inline-skates review site. This site made with React.js . We have used Reacts special feature Routing.
+- In the Home page we have a banner section and a customer review section with all reviews button.
+- We have a Reviews page in the nav-bar. In this page, we have all of our respective customer reviews.
+- We also have a dashboard. Here you car find various types of charts.
+- In the blogs page, you will know about Context API, Semantic-Tags and Difference between Inline, Block & Inline-Block elements.
+- At last we have about us page, where you will know about us.
 
 ## Available Scripts
 
