@@ -1,6 +1,6 @@
 # Inline Skates
 
-Live link: [Create React App](https://github.com/facebook/create-react-app).
+Live link: [https://quiet-monstera-d4f853.netlify.app](https://quiet-monstera-d4f853.netlify.app).
 
 ### Short description of the project:
 - This is a inline-skates review site. This site made with React.js . We have used Reacts special feature Routing.
