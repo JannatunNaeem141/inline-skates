@@ -22,7 +22,7 @@ const HomeReviews = (props) => {
                 </div>
             </div>
             <div className='all-review'>
-                <CustomLink to="/reviews" className='all-review-btn'>All Reviews</CustomLink>
+                <CustomLink to="/reviews" className='all-review-btn'>See All Reviews</CustomLink>
             </div>
         </div>
     );
