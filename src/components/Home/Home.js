@@ -9,7 +9,7 @@ const Home = () => {
                 <div className='banner-text'>
                     <h1 className='first-text'>Inline Skates</h1>
                     <h1 className='second-text'>Get Out and Move</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia impedit at amet velit ex sunt sit consequatur, natus doloribus. Reiciendis voluptate hic cupiditate error omnis, laboriosam deleniti facere quisquam sed voluptatum esse necessitatibus perspiciatis dolores debitis laborum commodi alias. Ea totam facilis dicta necessitatibus nihil cupiditate, perspiciatis possimus officia iste?</p>
+                    <p>There are several disciplines of inline skating, and with that there are a few different styles of inline skates available. The four main types of inline skates are going to be fitness, race, recreation, and urban. There are also aggressive and inline hockey skates, but we talk about them in other guides. You will notice inline skates are going to be available for men*, women, girls and boys. Many think that the skates are simply aesthetically different, but the skates are actually designed to fit the specific foot shape for men, women, boys or girls.</p>
                     <button className='banner-btn'>Live demo</button>
                 </div>
                 <div>

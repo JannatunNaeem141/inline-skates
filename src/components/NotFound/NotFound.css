@@ -1,0 +1,25 @@
+.not-found {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.not-found-text {
+    text-align: center;
+}
+
+.not-found-text h1 {
+    font-size: 80px;
+    margin: 0;
+    color: rgb(181, 181, 238);
+}
+
+.not-found-text h2 {
+    margin: 0;
+    color: rgb(43, 43, 119);
+}
+
+.not-found-text p {
+    color: rgb(24, 24, 68);
+}
