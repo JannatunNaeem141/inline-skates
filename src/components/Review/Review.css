@@ -1,9 +1,8 @@
 .review {
-    width: 300px;
+    width: 400px;
     height: 310px;
-    border: 1px solid #95A0A7;
-    border-radius: 8px;
     padding: 10px;
+    display: flex;
 }
 
 .review img {
@@ -17,8 +16,24 @@
 .avatar {
     display: flex;
     justify-content: center;
+    margin-right: 20px;
 }
 
 .review h4 {
     margin: 0;
+}
+
+.rating-text {
+    font-weight: 500;
+}
+
+.rating-text span {
+    font-weight: 400;
+    color: rgb(75, 70, 70);
+}
+
+.rating {
+    color: rgb(252, 182, 4);
+    font-size: 11px;
+    position: absolute;
 }
