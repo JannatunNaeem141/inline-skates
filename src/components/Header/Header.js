@@ -6,6 +6,7 @@ const Header = () => {
     return (
         <nav className='nav-bar'>
             <CustomLink className='custom-link' to='/'>Home</CustomLink>
+            <CustomLink className='custom-link' to='/skates'>Skates</CustomLink>
             <CustomLink className='custom-link' to='/reviews'>Reviews</CustomLink>
             <CustomLink className='custom-link' to='/dashboard'>Dashboard</CustomLink>
             <CustomLink className='custom-link' to='/blogs'>Blogs</CustomLink>
